@@ -39,6 +39,7 @@ body {
 .skill_box,
 .experience {
     display: flex;
+    flex-wrap: wrap;
 }
 .name_age_and_email_box_container,
 .experience_info {
@@ -107,3 +108,32 @@ body {
     background-color: aliceblue;
     color: gray;
 }
+.nav_links {
+    height: 60px;
+    background: #1a1a1a;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_links li {
+    list-style: none;
+}
+.nav_links li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.nav_links li a i {
+    color: crimson;
+    font-size: 15px;
+}
+
